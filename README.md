@@ -22,4 +22,3 @@ estruturas de dados como parte de um projeto de estudo em Java.
    git clone https://github.com/jarrogabriel/DSA.git
    cd DSA
 
-# DSA - Data Structures and Algorithms
