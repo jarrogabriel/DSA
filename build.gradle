@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Dependência para escrever testes com JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+
+    // Dependência para executar os testes com o engine do JUnit 5
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+// Configuração para usar o JUnit 5 ao rodar os testes
+test {
+    useJUnitPlatform()
+}
