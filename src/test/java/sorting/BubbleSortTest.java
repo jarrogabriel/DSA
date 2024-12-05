@@ -26,6 +26,6 @@ public class BubbleSortTest {
         System.setOut(new PrintStream(outputStream));
         BubbleSort.bubbleSort(orderedList);
         String output = outputStream.toString();
-        assertTrue(output.contains("Breaked proccess at 1st validation, list already ordered"));
+        assertTrue(output.contains("Since there were no swaps last time, list is already ordered, broke the proccess at 1º validation "));
     }
 }

@@ -16,3 +16,17 @@ Para cada elemento no array:
   - Se nenhuma troca foi feita durante uma passagem, encerre o processo.
 ```
 
+## RadixSort
+
+O RadixSort ordena os números processando dígito por dígito, pode começar pelo 
+menos significativo (LSD - Least Significant Digit) 
+ou pelo mais significativo (MSD - Most Significant Digit).
+
+## Pseudocódigo
+
+```plaintext
+    1. Encontre o maior número no array para descobrir a quantidade de dígitos.
+    2. Para cada dígito:
+        a. Distribua os números em buckets com base no dígito atual.
+        b. Recombine os números na ordem dos buckets.
+```
