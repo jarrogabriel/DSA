@@ -1,4 +1,4 @@
-package challenges;
+package challenges.LC121_BuySellStock;
 
 public class BuySellStock {
 
