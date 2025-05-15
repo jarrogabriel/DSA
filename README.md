@@ -1,25 +1,23 @@
 # Data Structures and Algorithms (DSA) Study Project
 
-Este repositório contém implementações de diversos algoritmos de ordenação e 
-estruturas de dados como parte de um projeto de estudo em Java.
+This repository contains implementations of various sorting algorithms and data structures as part of a Java study project.
 
-## Objetivo
+## Objective
 
-- Aprender e implementar algoritmos de ordenação e outras estruturas fundamentais.
-- Estudar e testar a eficiência de diferentes abordagens.
-- Dominar o uso da ferramenta GitHub Copilot para auxiliar no desenvolvimento.
+- Learn and implement sorting algorithms and other fundamental structures.
+- Study and test the efficiency of different approaches.
+- Master the use of the GitHub Copilot tool to assist in development.
 
-## Estrutura do Repositório
+## Repository Structure
 
-| Diretório        | Descrição                          |
+| Directory        | Description                        |
 |------------------|------------------------------------|
-| `sorting`        | Algoritmos de ordenação            |
-| `README.md`      | Documentação principal do projeto. |
+| `sorting`        | Sorting algorithms                |
+| `README.md`      | Main project documentation.       |
 
-## Como Rodar
+## How to Run
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/jarrogabriel/DSA.git
    cd DSA
-
