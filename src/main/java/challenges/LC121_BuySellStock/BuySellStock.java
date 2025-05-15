@@ -5,10 +5,10 @@ public class BuySellStock {
 
     public static void main(String[] args) {
         int[] prices = {3, 3, 5, 0, 0, 3, 1, 4};
-        maxProfit(prices);
+        System.out.printf("%d", maxProfit(prices));
     }
 
-    public static void maxProfit(int[] prices) {
+    public static int maxProfit(int[] prices) {
         int bestBuy = 0;
         int profit = 0;
         for (int i = 1; i < prices.length; i++) {
@@ -24,6 +24,6 @@ public class BuySellStock {
                 }
             }
         }
-        System.out.printf("%d", profit);
+        return profit;
     }
 }

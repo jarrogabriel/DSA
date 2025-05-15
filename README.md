@@ -7,6 +7,7 @@ estruturas de dados como parte de um projeto de estudo em Java.
 
 - Aprender e implementar algoritmos de ordenação e outras estruturas fundamentais.
 - Estudar e testar a eficiência de diferentes abordagens.
+- Dominar o uso da ferramenta GitHub Copilot para auxiliar no desenvolvimento.
 
 ## Estrutura do Repositório
 
