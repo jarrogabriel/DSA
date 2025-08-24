@@ -1,5 +1,6 @@
-package challenges.HR_Contacts;
+package challenges.HackerRankTests.HR_Contacts;
 
+import challenges.HackerRank.HR_Contacts.Contacts;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package challenges.LC20_ValidBrackets;
+package challenges.LeetCode.LC20_ValidBrackets;
 
 import java.util.Stack;
 

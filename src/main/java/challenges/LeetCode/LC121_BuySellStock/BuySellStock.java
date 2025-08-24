@@ -1,4 +1,4 @@
-package challenges.LC121_BuySellStock;
+package challenges.LeetCode.LC121_BuySellStock;
 
 public class BuySellStock {
 

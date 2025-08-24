@@ -1,11 +1,11 @@
-package challenges.HR_HeightBinaryTree;
+package challenges.HackerRank.HR_HeightBinaryTree;
 
 public class Node {
     Node left;
     Node right;
     int data;
 
-    Node(int data) {
+    public Node(int data) {
         this.data = data;
         left = null;
         right = null;

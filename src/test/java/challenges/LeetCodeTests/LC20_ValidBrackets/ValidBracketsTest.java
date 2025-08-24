@@ -1,6 +1,7 @@
-package challenges.LC20_ValidBrackets;
+package challenges.LeetCodeTests.LC20_ValidBrackets;
 
 
+import challenges.LeetCode.LC20_ValidBrackets.ValidBrackets;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

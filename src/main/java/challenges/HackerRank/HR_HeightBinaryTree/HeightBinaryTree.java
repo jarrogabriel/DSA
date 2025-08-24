@@ -1,4 +1,4 @@
-package challenges.HR_HeightBinaryTree;
+package challenges.HackerRank.HR_HeightBinaryTree;
 
 
 public class HeightBinaryTree {

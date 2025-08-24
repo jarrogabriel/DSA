@@ -1,5 +1,7 @@
-package challenges.HR_HeightBinaryTree;
+package challenges.HackerRankTests.HR_HeightBinaryTree;
 
+import challenges.HackerRank.HR_HeightBinaryTree.HeightBinaryTree;
+import challenges.HackerRank.HR_HeightBinaryTree.Node;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

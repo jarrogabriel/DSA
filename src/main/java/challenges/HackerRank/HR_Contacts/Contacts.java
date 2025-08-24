@@ -1,4 +1,4 @@
-package challenges.HR_Contacts;
+package challenges.HackerRank.HR_Contacts;
 
 import java.util.ArrayList;
 import java.util.List;

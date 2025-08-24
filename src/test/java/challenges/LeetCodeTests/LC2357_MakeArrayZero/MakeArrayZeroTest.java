@@ -1,5 +1,6 @@
-package challenges.LC2357_MakeArrayZero;
+package challenges.LeetCodeTests.LC2357_MakeArrayZero;
 
+import challenges.LeetCode.LC2357_MakeArrayZero.MakeArrayZero;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

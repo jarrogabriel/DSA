@@ -1,4 +1,4 @@
-package challenges.HR_TreeLevelOrderTraversal;
+package challenges.HackerRank.HR_TreeLevelOrderTraversal;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

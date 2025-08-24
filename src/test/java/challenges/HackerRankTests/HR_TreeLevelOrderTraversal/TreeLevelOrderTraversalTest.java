@@ -1,11 +1,12 @@
-package challenges.HR_TreeLevelOrderTraversal;
+package challenges.HackerRankTests.HR_TreeLevelOrderTraversal;
 
 
+import challenges.HackerRank.HR_TreeLevelOrderTraversal.Node;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static challenges.HR_TreeLevelOrderTraversal.TreeLevelOrderTraversal.levelOrder;
+import static challenges.HackerRank.HR_TreeLevelOrderTraversal.TreeLevelOrderTraversal.levelOrder;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TreeLevelOrderTraversalTest {

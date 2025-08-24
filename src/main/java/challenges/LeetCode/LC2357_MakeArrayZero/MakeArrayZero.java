@@ -1,4 +1,4 @@
-package challenges.LC2357_MakeArrayZero;
+package challenges.LeetCode.LC2357_MakeArrayZero;
 
 import java.util.HashSet;
 import java.util.Set;

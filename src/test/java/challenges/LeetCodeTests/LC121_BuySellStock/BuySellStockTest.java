@@ -1,5 +1,6 @@
-package challenges.LC121_BuySellStock;
+package challenges.LeetCodeTests.LC121_BuySellStock;
 
+import challenges.LeetCode.LC121_BuySellStock.BuySellStock;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
