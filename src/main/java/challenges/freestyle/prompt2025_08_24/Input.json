@@ -1,0 +1,25 @@
+{
+  "merchantCurrency": "USD",
+  "userCurrency": "BRL",
+  "country": "BR",
+  "locale": "pt_BR",
+  "paymentMethod": "VISA",
+  "coupon": {
+    "type": "PERCENT",
+    "value": 10
+  },
+  "items": [
+    {
+      "sku": "AA-1",
+      "category": "general",
+      "unitPrice": 12.30,
+      "quantity": 2
+    },
+    {
+      "sku": "BB-2",
+      "category": "food",
+      "unitPrice": 3.99,
+      "quantity": 5
+    }
+  ]
+}

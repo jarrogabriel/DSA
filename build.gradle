@@ -7,14 +7,17 @@ repositories {
 }
 
 dependencies {
-    // Dependência para escrever testes com JUnit 5
+    // Dependency for writing tests with JUnit 5
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
 
-    // Dependência para executar os testes com o engine do JUnit 5
+    // Dependency for running tests with the JUnit 5 engine
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    // For HackerRank freestyle
+    implementation 'com.google.code.gson:gson:2.10.1'
 }
 
-// Configuração para usar o JUnit 5 ao rodar os testes
+// Configuration to use JUnit 5 when running tests
 test {
     useJUnitPlatform()
 }
