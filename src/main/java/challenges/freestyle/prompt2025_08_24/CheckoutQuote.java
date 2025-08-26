@@ -160,7 +160,7 @@ public class CheckoutQuote {
             BigDecimal discountValue = new BigDecimal("0.00");
             //System.out.println(couponDTO);
             if (("PERCENT").equals(couponDTO.type)) {
-                discountValue = BigDecimal.valueOf(couponDTO.value).divide(BigDecimal.valueOf(100));
+                discountValue = BigDecimal.valueOf(couponDTO.value).divide(BigDecimal.valueOf(100), RoundingMode.HALF_UP);
                 //System.out.println(discountValue);
             }
             return round(subTotal.multiply(discountValue), this.currency);
@@ -215,6 +215,7 @@ public class CheckoutQuote {
         BigDecimal grandTotalBeforeFee = subTotal.subtract(discountTotal).add(taxTotal);
 
         Double feePercent = CheckoutQuote.PaymentConfigService.getFeePercent(inputJsonDTO.paymentMethod);
+        if (feePercent == null) feePercent = 0.0;
 
         BigDecimal paymentFee = helper.round(grandTotalBeforeFee.multiply(BigDecimal.valueOf(feePercent)), userCurrency);
         BigDecimal grandTotal = helper.round(grandTotalBeforeFee.add(paymentFee), userCurrency);
